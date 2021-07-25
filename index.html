@@ -12,7 +12,7 @@
 
 <body>
     <header class="mb-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 p-3">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light mb-5 p-3 ">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -26,16 +26,33 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <input type="checkbox" class="btn-check" autocomplete="off">
+                            <label class="btn btn-outline-primary border-0" for="btn-check-outlined"> <a
+                                    class="nav-link active" aria-current="page" href="#">Home</a></label>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Shoe</a>
+                            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+                            <label class="btn btn-outline-primary border-0" for="btn-check-outlined"><a
+                                    class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
+                            </label>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+                            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+                            <label class="btn btn-outline-primary border-0" for="btn-check-outlined"><a
+                                    class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
+                            </label>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About us</a>
+                            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+                            <label class="btn btn-outline-primary border-0" for="btn-check-outlined"><a
+                                    class="nav-link active" aria-current="page" href="#sunglasses">Sunglasser</a>
+                            </label>
+                        </li>
+                        <li class="nav-item">
+                            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+                            <label class="btn btn-outline-primary border-0" for="btn-check-outlined"><a
+                                    class="nav-link active" aria-current="page" href="#" About>About Us</a>
+                            </label>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -160,7 +177,7 @@
             </div>
         </section>
 
-        <section class="container">
+        <section class="container" id="shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -209,7 +226,7 @@
                 </div>
             </div>
         </section>
-        <section class="container my-3">
+        <section class="container my-3" id="backpack">
             <h1>Bags</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -257,7 +274,7 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section class="container" id="sunglasses">
             <h1> Polarised Sunglasses</h1>
             <div class="row mb-5">
                 <div class="col-lg-4 col-md-6 col-sm-12 gy-3">
